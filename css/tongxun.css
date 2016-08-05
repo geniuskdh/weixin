@@ -1,0 +1,348 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a{
+  list-style: none;
+}
+@media screen and (max-width: 1080px) {
+  html {
+    font-size: 100px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  html {
+    font-size: 38.33333px;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  html {
+    font-size: 38.14815px;
+  }
+}
+
+@media screen and (max-width: 384px) {
+  html {
+    font-size: 35.55556px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 34.72222px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 33.33333px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 29.62963px;
+  }
+}
+
+.weixin {
+  width: 10.8rem;
+  height: 19.2rem;
+  background: #ccc;
+  margin: 0 auto;
+}
+
+.weixin .header {
+  z-index: 100;
+  width: 100%;
+  height: 1.42rem;
+  background: #393a3f;
+  padding: 0 0.4rem;
+  box-sizing: border-box;
+  position: fixed;
+}
+
+.weixin .header .touwenzi li {
+  float: left;
+}
+
+.weixin .header .touwenzi .lis1 {
+  color: white;
+  line-height: 1.42rem;
+  font-size: 0.5rem;
+}
+
+.weixin .header .touwenzi .lis2 {
+  width: 0.79rem;
+  height: 1.42rem;
+  background: url("../images/ss.gif") center no-repeat;
+  background-size: 0.87rem;
+  margin-left: 6.03rem;
+}
+
+.weixin .header .touwenzi .lis3 {
+  width: 0.65rem;
+  height: 1.42rem;
+  background: url("../images/jia.gif") center no-repeat;
+  background-size: 0.65rem;
+  margin-left: 1.1rem;
+}
+
+.weixin .content {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  overflow-y: scroll;
+  overflow-y: auto;
+  background: white;
+}
+
+.weixin .content .inner {
+  height: auto;
+  overflow-y: scroll;
+  overflow-y: auto;
+}
+
+.weixin .content .inner ul {
+  width: 100%;
+  height: auto;
+  padding-top: 1.5rem;
+  box-sizing: border-box;
+  padding-left: 0.36rem;
+  padding-right: 0.36rem;
+}
+
+.weixin .content .inner ul:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0;
+}
+
+.weixin .content .inner ul li {
+  height: 1.52rem;
+  width: 100%;
+  border-bottom: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  float: left;
+}
+
+.weixin .content .inner ul li img {
+  float: left;
+}
+
+.weixin .content .inner ul li span {
+  display: block;
+  font-size: 0.55rem;
+  font-weight: bold;
+  height: 1.52rem;
+  float: left;
+  line-height: 1.52rem;
+  padding-left: 0.38rem;
+  color: #737373;
+}
+
+.weixin .content .inner ul li:nth-child(1) img {
+  width: 1.33rem;
+  height: 1.51rem;
+}
+
+.weixin .content .inner ul li:nth-child(2) {
+  padding-top: 0.02rem;
+}
+
+.weixin .content .inner ul li:nth-child(2) img {
+  width: 1.33rem;
+  height: 1.42rem;
+}
+
+.weixin .content .inner ul li:nth-child(3) {
+  padding-top: 0.1rem;
+}
+
+.weixin .content .inner ul li:nth-child(3) img {
+  width: 1.33rem;
+  height: 1.31rem;
+}
+
+.weixin .content .inner ul li:nth-child(4) {
+  padding-top: 0.1rem;
+}
+
+.weixin .content .inner ul li:nth-child(4) img {
+  width: 1.33rem;
+  height: 1.29rem;
+}
+
+.weixin .content .inner .xing {
+  background: #EBEBEB;
+  font-size: 0.40rem;
+  padding: 0.08rem 0.5rem;
+  font-weight: bold;
+  color: #999999;
+}
+
+.weixin .content .inner .suiyue {
+  height: 1.52rem;
+  background: white;
+  padding: 0 0.36rem;
+  box-sizing: border-box;
+}
+
+.weixin .content .inner .suiyue img {
+  width: 1.44rem;
+  height: 1.54rem;
+  float: left;
+}
+
+.weixin .content .inner .suiyue span {
+  display: block;
+  font-size: 0.55rem;
+  font-weight: bold;
+  height: 1.52rem;
+  float: left;
+  line-height: 1.52rem;
+  padding-left: 0.38rem;
+  color: #737373;
+}
+
+.weixin .content .inner .AA {
+  padding-top: 0;
+}
+
+.weixin .content .inner .AA .hehe {
+  padding-top: 0.01rem;
+}
+
+.weixin .content .inner .AA .hehe img {
+  width: 1.17rem;
+  height: 1.50rem;
+}
+
+.weixin .content .inner .AA .xifu {
+  padding-top: 0.01rem;
+}
+
+.weixin .content .inner .AA .xifu img {
+  width: 1.17rem;
+  height: 1.38rem;
+}
+
+.weixin .content .inner .AA .xiaoxue {
+  padding-top: 0.01rem;
+}
+
+.weixin .content .inner .AA .xiaoxue img {
+  width: 1.17rem;
+  height: 1.48rem;
+}
+
+.weixin .content .inner .AA .tian {
+  padding-top: 0.01rem;
+}
+
+.weixin .content .inner .AA .tian img {
+  width: 1.30rem;
+  height: 1.47rem;
+}
+
+.weixin .content .inner .AA li:nth-child(5) img {
+  width: 1.33rem;
+  height: 1.51rem;
+}
+
+.weixin .content .inner .AA li:nth-child(6) img {
+  width: 1.33rem;
+  height: 1.51rem;
+}
+
+.weixin .dibu {
+  width: 100%;
+  height: 1.6rem;
+  border-top: 1px solid #E9E9E9;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 100;
+  background: #FCFCFC;
+}
+
+.weixin .dibu ul {
+  width: 100%;
+  height: 100%;
+}
+
+.weixin .dibu ul li {
+  width: 25%;
+  height: 100%;
+  background: white;
+  float: left;
+  position: relative;
+}
+.weixin .dibu ul li a{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  top:0;
+}
+
+.weixin .dibu ul li span {
+  position: absolute;
+  font-size: 0.38rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  margin-bottom: 0.02rem;
+  text-align: center;
+}
+
+.weixin .dibu ul li:nth-child(1) {
+  background: url("../images/logo01.gif") center no-repeat;
+  background-position-y: 0.2rem;
+  background-size: 0.94rem;
+}
+
+.weixin .dibu ul li:nth-child(2) {
+  background: url("../images/logo02.gif") center no-repeat;
+  background-position-y: 0.2rem;
+  background-size: 0.89rem;
+  color: #46C01B;
+}
+
+.weixin .dibu ul li:nth-child(3) {
+  background: url("../images/logo3.gif") center no-repeat;
+  background-position-y: 0.2rem;
+  background-size: 1.05rem;
+}
+
+.weixin .dibu ul li:nth-child(4) {
+  background: url("../images/logo4.gif") center no-repeat;
+  background-position-y: 0.2rem;
+  background-size: 0.77rem;
+}
+
+.daohang {
+  position: fixed;
+  top: 1.46rem;
+  right: 0;
+  height: 16.05rem;
+  width: 0.68rem;
+}
+
+.daohang li {
+  width: 100%;
+  height: 3.45%;
+  font-size: 0.56rem;
+  text-align: center;
+  color: #A7A7A7;
+}

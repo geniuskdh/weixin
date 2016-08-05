@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a{
+  list-style: none;
+}
+
+@media screen and (max-width: 1080px) {
+  html {
+    font-size: 100px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  html {
+    font-size: 38.33333px;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  html {
+    font-size: 38.14815px;
+  }
+}
+
+@media screen and (max-width: 384px) {
+  html {
+    font-size: 35.55556px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 34.72222px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 33.33333px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 29.62963px;
+  }
+}
+
+.weixin {
+  width: 10.8rem;
+  height: 19.2rem;
+  background: #ebebeb;
+  margin: 0 auto;
+}
+
+.weixin .header {
+  z-index: 100;
+  width: 100%;
+  height: 1.42rem;
+  background: #393a3f;
+  padding: 0 0.4rem;
+  box-sizing: border-box;
+  position: fixed;
+}
+
+.weixin .header .touwenzi li {
+  float: left;
+}
+
+.weixin .header .touwenzi .lis1 {
+  color: white;
+  line-height: 1.42rem;
+  font-size: 0.5rem;
+}
+
+.weixin .header .touwenzi .lis2 {
+  width: 0.79rem;
+  height: 1.42rem;
+  background: url("../images/ss.gif") center no-repeat;
+  background-size: 0.87rem;
+  margin-left: 6.03rem;
+}
+
+.weixin .header .touwenzi .lis3 {
+  width: 0.65rem;
+  height: 1.42rem;
+  background: url("../images/jia.gif") center no-repeat;
+  background-size: 0.65rem;
+  margin-left: 1.1rem;
+}
+
+.weixin .content {
+  width: 100%;
+  background: #ebebeb;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  overflow-y: scroll;
+}
+
+.weixin .content ul {
+  padding-top: 1.5rem;
+  background: #ebebeb;
+}
+
+.weixin .content ul .hui {
+  width: 100%;
+  height: 0.52rem;
+  background: #ebebeb;
+}
+
+.weixin .content li {
+  width: 100%;
+  height: 1.42rem;
+  padding-left: 0.36rem;
+  padding-right: 0.36rem;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.weixin .content .inner1 {
+  background: white;
+}
+
+.weixin .content .inner1 div {
+  float: left;
+  box-sizing: border-box;
+}
+
+.weixin .content .inner1 .touxiang {
+  width: 0.98rem;
+  height: 1.42rem;
+  background: url("../images/quan.gif");
+  background-size: 100%;
+}
+
+.weixin .content .inner1 .touxiang.sao {
+  background: url("../images/sao.gif");
+  background-size: 100%;
+}
+
+.weixin .content .inner1 .touxiang.yao {
+  background: url("../images/yao.gif");
+  background-size: 100%;
+}
+
+.weixin .content .inner1 .touxiang.fujin {
+  background: url("../images/fujin.gif");
+  background-size: 100%;
+}
+
+.weixin .content .inner1 .touxiang.ping {
+  background: url("../images/pingzi.gif");
+  background-size: 100%;
+}
+
+.weixin .content .inner1 .touxiang.gouwu {
+  background: url("../images/gouwu.gif");
+  background-size: 100%;
+}
+
+.weixin .content .inner1 .touxiang.youxi {
+  background: url("../images/youxi.gif");
+  background-size: 100%;
+}
+
+.weixin .content .inner1 .xinxi {
+  height: 1.42rem;
+  padding-left: 0.38rem;
+  padding-top: 0.38rem;
+}
+
+.weixin .content .inner1 .xinxi .name {
+  font-size: 0.50rem;
+  font-weight: bold;
+}
+
+.weixin .dibu {
+  width: 100%;
+  height: 1.6rem;
+  border-top: 1px solid #E9E9E9;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 100;
+  background: #fcfcfc;
+}
+
+.weixin .dibu ul {
+  width: 100%;
+  height: 100%;
+}
+
+.weixin .dibu ul li {
+  width: 25%;
+  height: 100%;
+  background: white;
+  float: left;
+  position: relative;
+}
+
+.weixin .dibu ul li span {
+  position: absolute;
+  font-size: 0.38rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  margin-bottom: 0.02rem;
+  text-align: center;
+}
+
+.weixin .dibu ul li:nth-child(1) {
+  background: url("../images/logo1.gif") center no-repeat;
+  background-position-y: 0.2rem;
+  background-size: 0.94rem;
+}
+
+.weixin .dibu ul li:nth-child(2) {
+  background: url("../images/logo2.gif") center no-repeat;
+  background-position-y: 0.2rem;
+  background-size: 0.89rem;
+}
+
+.weixin .dibu ul li:nth-child(3) {
+  background: url("../images/logo3.gif") center no-repeat;
+  background-position-y: 0.2rem;
+  background-size: 1.05rem;
+}
+
+.weixin .dibu ul li:nth-child(4) {
+  background: url("../images/logo4.gif") center no-repeat;
+  background-position-y: 0.2rem;
+  background-size: 0.77rem;
+}
